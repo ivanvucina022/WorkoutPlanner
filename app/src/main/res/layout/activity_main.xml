@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/naslov"
+        android:layout_width="443dp"
+        android:layout_height="118dp"
+        android:lines="2"
+        android:text="Workout planner"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="@color/black"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_main"
+        android:backgroundTint="@android:color/holo_red_light"
+        android:backgroundTintMode="add"
+        android:text="Back"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/btnArms"
+        app:layout_constraintEnd_toStartOf="@+id/btnPec"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/naslov" />
+
+    <Button
+        android:id="@+id/btnPec"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_main"
+        android:backgroundTint="@android:color/holo_red_light"
+        android:backgroundTintMode="add"
+        android:text="Pec"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/btnLegs"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/btnBack"
+        app:layout_constraintTop_toBottomOf="@+id/naslov"
+        app:layout_constraintVertical_bias="0.513" />
+
+    <Button
+        android:id="@+id/btnArms"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_main"
+        android:backgroundTint="@android:color/holo_red_light"
+        android:backgroundTintMode="add"
+        android:text="Arms"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/btnCardio"
+        app:layout_constraintEnd_toStartOf="@+id/btnLegs"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnBack" />
+
+    <Button
+        android:id="@+id/btnLegs"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_main"
+        android:backgroundTint="@android:color/holo_red_light"
+        android:backgroundTintMode="add"
+        android:text="Legs"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/btnFullbody"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/btnArms"
+        app:layout_constraintTop_toBottomOf="@+id/btnPec" />
+
+    <Button
+        android:id="@+id/btnCardio"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_main"
+        android:backgroundTint="@android:color/holo_red_light"
+        android:backgroundTintMode="add"
+        android:text="Cardio"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/btnBMIcalc"
+        app:layout_constraintEnd_toStartOf="@+id/btnFullbody"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnArms" />
+
+    <Button
+        android:id="@+id/btnFullbody"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_main"
+        android:backgroundTint="@android:color/holo_red_light"
+        android:backgroundTintMode="add"
+        android:text="Full body"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/btnBMIcalc"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/btnCardio"
+        app:layout_constraintTop_toBottomOf="@+id/btnLegs" />
+
+    <Button
+        android:id="@+id/btnBMIcalc"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_main"
+        android:backgroundTint="@android:color/holo_red_light"
+        android:backgroundTintMode="add"
+        android:text="BMIcalc"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnCardio" />
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="120dp"
+        android:alpha="0.4"
+        android:background="#003A0000"
+        android:cropToPadding="true"
+        android:scaleType="center"
+        android:src="@drawable/pullup"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/naslov" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/ivan/AndroidStudioProjects/MyApplication/app/src/main/res/drawable/btn_main.xml" value="0.3104166666666667" />
+        <entry key="..\:/Users/ivan/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_back.xml" value="0.21818181061547676" />
+        <entry key="..\:/Users/ivan/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_bentoverrow.xml" value="0.2942708333333333" />
+        <entry key="..\:/Users/ivan/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_bmicalc.xml" value="0.1" />
+        <entry key="..\:/Users/ivan/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_calorie_calc.xml" value="0.2942708333333333" />
+        <entry key="..\:/Users/ivan/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_fullbody.xml" value="0.2942708333333333" />
+        <entry key="..\:/Users/ivan/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_latpulldown.xml" value="0.2942708333333333" />
+        <entry key="..\:/Users/ivan/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_latpulldown2.xml" value="0.2942708333333333" />
+        <entry key="..\:/Users/ivan/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_legs.xml" value="0.2942708333333333" />
+        <entry key="..\:/Users/ivan/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_main.xml" value="0.2879999900124293" />
+        <entry key="..\:/Users/ivan/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_pec.xml" value="0.2942708333333333" />
+        <entry key="..\:/Users/ivan/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_proba.xml" value="0.22291666666666668" />
+        <entry key="..\:/Users/ivan/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_pullup.xml" value="0.1" />
+        <entry key="..\:/Users/ivan/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_vjezba_detail.xml" value="0.1" />
+        <entry key="..\:/Users/ivan/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_vjezbe.xml" value="0.20104166666666667" />
+        <entry key="..\:/Users/ivan/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_vjezbe2.xml" value="0.2942708333333333" />
+        <entry key="..\:/Users/ivan/AndroidStudioProjects/MyApplication/app/src/main/res/layout/layout_list_item.xml" value="0.2879999900124293" />
+        <entry key="..\:/Users/ivan/AndroidStudioProjects/MyApplication/app/src/main/res/layout/pullups.xml" value="0.2942708333333333" />
+        <entry key="..\:/Users/ivan/AndroidStudioProjects/MyApplication/app/src/main/res/layout/vjezbe2_layout.xml" value="0.21818181061547676" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
